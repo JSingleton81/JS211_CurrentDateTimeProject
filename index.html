@@ -3,13 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </head>
   <body>
     <h1>Hello World!</h1>
     <hr/>
     <div id="display-element"></div>
     <button onclick="displayDate()">Click Me</button>
+
+     <!-- add two numbers -->
+    <div id="add-two-numbers"></div>
+    <input type="number" id="num1" name="num1">
+    <input type="number" id="num2" name="num2">
+    <button onclick="addTwoNumbersDom()">Add</button>
+
+<!-- two true things -->
+    <div id="two-true-things"></div>
+    <input type="text" id="a" name="a">
+    <input type="text" id="b" name="b">
+    <button onclick="twoTruthsDom()">Submit</button>
+
+
+
+<!-- one true thing -->
+<div id="one-true-thing"></div>
+<input type="text" name="c" id="c">
+<input type="text" name="d" id="d">
+<button onclick="oneRightDom()">Submit</button>
+
+
+
+<!-- both things are not true -->
+<div id="both-not-true"></div>
+<input type="text" name="e" id="e">
+<input type="text" name="f" id="f">
+<button onclick="twoFalseDom()">Submit</button>
     <hr/>
   </body>
 </html>
